@@ -14,8 +14,8 @@ class AppDelegate: BrokerAppDelegate {
         Application.brokerAppDelegate = self
         Application.loogerDelegate = self
   
-        return [ BrokerDataAppService.initSingleton(dadataSecret: "Token cdf0235a3a74b5ca1c7adcc72b40d41f2d318cdd",
-                                                      qntSoftSecret: "f890ca54-6329-478b-981e-e5825cc2929c"),
+        return [ BrokerDataAppService.initSingleton(dadataSecret: "",
+                                                      qntSoftSecret: ""),
                    AppNotificationCenter.shared,
         
                    InterfaceOrientations.shared,
@@ -23,9 +23,9 @@ class AppDelegate: BrokerAppDelegate {
                    AppearanceAppService(),
         
                    AppCoordinator.shared,
-                   ModulesAppService(partnerGUID: "4D50D6E6-8FE6-4E68-A94D-018684D5181A")
+                   ModulesAppService(partnerGUID: "")
                ]
-    } 
+    }
 }
 
 extension AppDelegate : LoggerDelegate {

@@ -1,9 +1,16 @@
 //
-//  Main.swift
-//  BrokerAppDemo
+//  main.swift
+//  MyBrokerX
 //
-//  Created by Alexej Nenastev on 26.01.2020.
-//  Copyright © 2020 BCS. All rights reserved.
+//  Created by Andrey Raevnev on 01/08/2019.
 //
 
-import Foundation
+import UIKit
+import BrokerApp
+
+UIApplicationMain(
+    CommandLine.argc,
+    CommandLine.unsafeArgv,
+    NSStringFromClass(Application.self),
+    NSStringFromClass(AppDelegate.self)
+)
