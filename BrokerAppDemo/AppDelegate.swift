@@ -1,37 +1,35 @@
 //
 //  AppDelegate.swift
-//  BrokerAppDemo
+//  MyBrokerX
 //
-//  Created by Alexej Nenastev on 26.01.2020.
-//  Copyright © 2020 BCS. All rights reserved.
+//  Created by Andrey Raevnev on 24/04/2019.
+//  Copyright © 2019 Andrey Raevnev. All rights reserved.
 //
-
-import UIKit
-
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
-    }
-
-    // MARK: UISceneSession Lifecycle
-
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
-    }
-
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-    }
-
-
+import BrokerApp
+import BCSSwiftTools
+ 
+class AppDelegate: BrokerAppDelegate {
+    
+    override var services: [ApplicationService] { 
+        Application.brokerAppDelegate = self
+        Application.loogerDelegate = self
+  
+        return [ BrokerDataAppService.initSingleton(dadataSecret: "Token cdf0235a3a74b5ca1c7adcc72b40d41f2d318cdd",
+                                                      qntSoftSecret: "f890ca54-6329-478b-981e-e5825cc2929c"),
+                   AppNotificationCenter.shared,
+        
+                   InterfaceOrientations.shared,
+                   IQKeyboardAppService(),
+                   AppearanceAppService(),
+        
+                   AppCoordinator.shared,
+                   ModulesAppService(partnerGUID: "4D50D6E6-8FE6-4E68-A94D-018684D5181A")
+               ]
+    } 
 }
 
+extension AppDelegate : LoggerDelegate {
+    public func didRecieveLog(log: Logger.Log, logger: Logger) {
+           debugPrint(log.text)
+       }
+}
