@@ -7,59 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03786C2223DEDF7E0098F325 /* BCSUniverse.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67B23DDF4DE0086B040 /* BCSUniverse.xcframework */; };
+		03786C2323DEDF7E0098F325 /* BCSUniverse.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67B23DDF4DE0086B040 /* BCSUniverse.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03786C2423DEDF7E0098F325 /* BrokerApp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67C23DDF4DE0086B040 /* BrokerApp.xcframework */; };
+		03786C2523DEDF7E0098F325 /* BrokerApp.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67C23DDF4DE0086B040 /* BrokerApp.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03786C2623DEDF7E0098F325 /* BrokerAuthModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67D23DDF4DE0086B040 /* BrokerAuthModule.xcframework */; };
+		03786C2723DEDF7E0098F325 /* BrokerAuthModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67D23DDF4DE0086B040 /* BrokerAuthModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03786C2823DEDF7E0098F325 /* BrokerData.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67E23DDF4DE0086B040 /* BrokerData.xcframework */; };
+		03786C2923DEDF7E0098F325 /* BrokerData.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67E23DDF4DE0086B040 /* BrokerData.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03786C2A23DEDF7E0098F325 /* BrokerInformationModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67F23DDF4DE0086B040 /* BrokerInformationModule.xcframework */; };
+		03786C2B23DEDF7F0098F325 /* BrokerInformationModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67F23DDF4DE0086B040 /* BrokerInformationModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03786C2C23DEDF7F0098F325 /* BrokerOpenAccountModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68023DDF4DE0086B040 /* BrokerOpenAccountModule.xcframework */; };
+		03786C2D23DEDF7F0098F325 /* BrokerOpenAccountModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68023DDF4DE0086B040 /* BrokerOpenAccountModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03786C2E23DEDF7F0098F325 /* BrokerPortfelModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68123DDF4DE0086B040 /* BrokerPortfelModule.xcframework */; };
+		03786C2F23DEDF7F0098F325 /* BrokerPortfelModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68123DDF4DE0086B040 /* BrokerPortfelModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03786C3023DEDF7F0098F325 /* BrokerProductsModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68223DDF4DE0086B040 /* BrokerProductsModule.xcframework */; };
+		03786C3123DEDF7F0098F325 /* BrokerProductsModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68223DDF4DE0086B040 /* BrokerProductsModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03786C3223DEDF7F0098F325 /* BrokerQuotesModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68323DDF4DE0086B040 /* BrokerQuotesModule.xcframework */; };
+		03786C3323DEDF7F0098F325 /* BrokerQuotesModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68323DDF4DE0086B040 /* BrokerQuotesModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03786C3423DEDF7F0098F325 /* BrokerServiceModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68423DDF4DE0086B040 /* BrokerServiceModule.xcframework */; };
+		03786C3523DEDF7F0098F325 /* BrokerServiceModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68423DDF4DE0086B040 /* BrokerServiceModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03786C3623DEDF7F0098F325 /* BrokerTradingModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68523DDF4DE0086B040 /* BrokerTradingModule.xcframework */; };
+		03786C3723DEDF7F0098F325 /* BrokerTradingModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68523DDF4DE0086B040 /* BrokerTradingModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03786C3823DEDF7F0098F325 /* BrokerUIKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68623DDF4DE0086B040 /* BrokerUIKit.xcframework */; };
+		03786C3923DEDF7F0098F325 /* BrokerUIKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68623DDF4DE0086B040 /* BrokerUIKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03786C3A23DEDF7F0098F325 /* BrokerWithdrawDepositModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68723DDF4DE0086B040 /* BrokerWithdrawDepositModule.xcframework */; };
+		03786C3B23DEDF7F0098F325 /* BrokerWithdrawDepositModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68723DDF4DE0086B040 /* BrokerWithdrawDepositModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		6D19C5C123DDDE0800BFA734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19C5C023DDDE0800BFA734 /* AppDelegate.swift */; };
 		6D19C5CA23DDDE0C00BFA734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D19C5C923DDDE0C00BFA734 /* Assets.xcassets */; };
 		6D19C5CD23DDDE0C00BFA734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D19C5CB23DDDE0C00BFA734 /* LaunchScreen.storyboard */; };
-		6DF5A68823DDF4DE0086B040 /* BCSUniverse.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67B23DDF4DE0086B040 /* BCSUniverse.xcframework */; };
-		6DF5A68923DDF4DE0086B040 /* BCSUniverse.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67B23DDF4DE0086B040 /* BCSUniverse.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6DF5A68A23DDF4DE0086B040 /* BrokerApp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67C23DDF4DE0086B040 /* BrokerApp.xcframework */; };
-		6DF5A68B23DDF4DE0086B040 /* BrokerApp.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67C23DDF4DE0086B040 /* BrokerApp.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6DF5A68C23DDF4DE0086B040 /* BrokerAuthModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67D23DDF4DE0086B040 /* BrokerAuthModule.xcframework */; };
-		6DF5A68D23DDF4DE0086B040 /* BrokerAuthModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67D23DDF4DE0086B040 /* BrokerAuthModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6DF5A68E23DDF4DE0086B040 /* BrokerData.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67E23DDF4DE0086B040 /* BrokerData.xcframework */; };
-		6DF5A68F23DDF4DE0086B040 /* BrokerData.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67E23DDF4DE0086B040 /* BrokerData.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6DF5A69023DDF4DE0086B040 /* BrokerInformationModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67F23DDF4DE0086B040 /* BrokerInformationModule.xcframework */; };
-		6DF5A69123DDF4DE0086B040 /* BrokerInformationModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67F23DDF4DE0086B040 /* BrokerInformationModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6DF5A69223DDF4DE0086B040 /* BrokerOpenAccountModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68023DDF4DE0086B040 /* BrokerOpenAccountModule.xcframework */; };
-		6DF5A69323DDF4DE0086B040 /* BrokerOpenAccountModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68023DDF4DE0086B040 /* BrokerOpenAccountModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6DF5A69423DDF4DF0086B040 /* BrokerPortfelModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68123DDF4DE0086B040 /* BrokerPortfelModule.xcframework */; };
-		6DF5A69523DDF4DF0086B040 /* BrokerPortfelModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68123DDF4DE0086B040 /* BrokerPortfelModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6DF5A69623DDF4DF0086B040 /* BrokerProductsModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68223DDF4DE0086B040 /* BrokerProductsModule.xcframework */; };
-		6DF5A69723DDF4DF0086B040 /* BrokerProductsModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68223DDF4DE0086B040 /* BrokerProductsModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6DF5A69823DDF4DF0086B040 /* BrokerQuotesModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68323DDF4DE0086B040 /* BrokerQuotesModule.xcframework */; };
-		6DF5A69923DDF4DF0086B040 /* BrokerQuotesModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68323DDF4DE0086B040 /* BrokerQuotesModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6DF5A69A23DDF4DF0086B040 /* BrokerServiceModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68423DDF4DE0086B040 /* BrokerServiceModule.xcframework */; };
-		6DF5A69B23DDF4DF0086B040 /* BrokerServiceModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68423DDF4DE0086B040 /* BrokerServiceModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6DF5A69C23DDF4DF0086B040 /* BrokerTradingModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68523DDF4DE0086B040 /* BrokerTradingModule.xcframework */; };
-		6DF5A69D23DDF4DF0086B040 /* BrokerTradingModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68523DDF4DE0086B040 /* BrokerTradingModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6DF5A69E23DDF4DF0086B040 /* BrokerUIKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68623DDF4DE0086B040 /* BrokerUIKit.xcframework */; };
-		6DF5A69F23DDF4DF0086B040 /* BrokerUIKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68623DDF4DE0086B040 /* BrokerUIKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6DF5A6A023DDF4DF0086B040 /* BrokerWithdrawDepositModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68723DDF4DE0086B040 /* BrokerWithdrawDepositModule.xcframework */; };
-		6DF5A6A123DDF4DF0086B040 /* BrokerWithdrawDepositModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68723DDF4DE0086B040 /* BrokerWithdrawDepositModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		6DF5A6DF23DE132E0086B040 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5A6DE23DE132E0086B040 /* main.swift */; };
 		EECCAEDDFF8916EFD3B60582 /* Pods_BrokerAppDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AAFC1AB31721B0C41DCCFF /* Pods_BrokerAppDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6DF5A6A223DDF4DF0086B040 /* Embed Frameworks */ = {
+		03786C3C23DEDF800098F325 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6DF5A69123DDF4DE0086B040 /* BrokerInformationModule.xcframework in Embed Frameworks */,
-				6DF5A68F23DDF4DE0086B040 /* BrokerData.xcframework in Embed Frameworks */,
-				6DF5A6A123DDF4DF0086B040 /* BrokerWithdrawDepositModule.xcframework in Embed Frameworks */,
-				6DF5A69523DDF4DF0086B040 /* BrokerPortfelModule.xcframework in Embed Frameworks */,
-				6DF5A68D23DDF4DE0086B040 /* BrokerAuthModule.xcframework in Embed Frameworks */,
-				6DF5A69D23DDF4DF0086B040 /* BrokerTradingModule.xcframework in Embed Frameworks */,
-				6DF5A69F23DDF4DF0086B040 /* BrokerUIKit.xcframework in Embed Frameworks */,
-				6DF5A69923DDF4DF0086B040 /* BrokerQuotesModule.xcframework in Embed Frameworks */,
-				6DF5A69723DDF4DF0086B040 /* BrokerProductsModule.xcframework in Embed Frameworks */,
-				6DF5A68B23DDF4DE0086B040 /* BrokerApp.xcframework in Embed Frameworks */,
-				6DF5A69323DDF4DE0086B040 /* BrokerOpenAccountModule.xcframework in Embed Frameworks */,
-				6DF5A69B23DDF4DF0086B040 /* BrokerServiceModule.xcframework in Embed Frameworks */,
-				6DF5A68923DDF4DE0086B040 /* BCSUniverse.xcframework in Embed Frameworks */,
+				03786C2B23DEDF7F0098F325 /* BrokerInformationModule.xcframework in Embed Frameworks */,
+				03786C2923DEDF7E0098F325 /* BrokerData.xcframework in Embed Frameworks */,
+				03786C3B23DEDF7F0098F325 /* BrokerWithdrawDepositModule.xcframework in Embed Frameworks */,
+				03786C2F23DEDF7F0098F325 /* BrokerPortfelModule.xcframework in Embed Frameworks */,
+				03786C2723DEDF7E0098F325 /* BrokerAuthModule.xcframework in Embed Frameworks */,
+				03786C3723DEDF7F0098F325 /* BrokerTradingModule.xcframework in Embed Frameworks */,
+				03786C3923DEDF7F0098F325 /* BrokerUIKit.xcframework in Embed Frameworks */,
+				03786C3323DEDF7F0098F325 /* BrokerQuotesModule.xcframework in Embed Frameworks */,
+				03786C3123DEDF7F0098F325 /* BrokerProductsModule.xcframework in Embed Frameworks */,
+				03786C2523DEDF7E0098F325 /* BrokerApp.xcframework in Embed Frameworks */,
+				03786C2D23DEDF7F0098F325 /* BrokerOpenAccountModule.xcframework in Embed Frameworks */,
+				03786C3523DEDF7F0098F325 /* BrokerServiceModule.xcframework in Embed Frameworks */,
+				03786C2323DEDF7E0098F325 /* BCSUniverse.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,20 +96,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DF5A68E23DDF4DE0086B040 /* BrokerData.xcframework in Frameworks */,
-				6DF5A69223DDF4DE0086B040 /* BrokerOpenAccountModule.xcframework in Frameworks */,
-				6DF5A69E23DDF4DF0086B040 /* BrokerUIKit.xcframework in Frameworks */,
-				6DF5A6A023DDF4DF0086B040 /* BrokerWithdrawDepositModule.xcframework in Frameworks */,
-				6DF5A69C23DDF4DF0086B040 /* BrokerTradingModule.xcframework in Frameworks */,
-				6DF5A69023DDF4DE0086B040 /* BrokerInformationModule.xcframework in Frameworks */,
-				6DF5A69823DDF4DF0086B040 /* BrokerQuotesModule.xcframework in Frameworks */,
-				6DF5A68C23DDF4DE0086B040 /* BrokerAuthModule.xcframework in Frameworks */,
-				6DF5A68A23DDF4DE0086B040 /* BrokerApp.xcframework in Frameworks */,
-				6DF5A69423DDF4DF0086B040 /* BrokerPortfelModule.xcframework in Frameworks */,
+				03786C2823DEDF7E0098F325 /* BrokerData.xcframework in Frameworks */,
+				03786C2C23DEDF7F0098F325 /* BrokerOpenAccountModule.xcframework in Frameworks */,
+				03786C3823DEDF7F0098F325 /* BrokerUIKit.xcframework in Frameworks */,
+				03786C3A23DEDF7F0098F325 /* BrokerWithdrawDepositModule.xcframework in Frameworks */,
+				03786C3623DEDF7F0098F325 /* BrokerTradingModule.xcframework in Frameworks */,
+				03786C2A23DEDF7E0098F325 /* BrokerInformationModule.xcframework in Frameworks */,
+				03786C3223DEDF7F0098F325 /* BrokerQuotesModule.xcframework in Frameworks */,
+				03786C2623DEDF7E0098F325 /* BrokerAuthModule.xcframework in Frameworks */,
+				03786C2423DEDF7E0098F325 /* BrokerApp.xcframework in Frameworks */,
+				03786C2E23DEDF7F0098F325 /* BrokerPortfelModule.xcframework in Frameworks */,
 				EECCAEDDFF8916EFD3B60582 /* Pods_BrokerAppDemo.framework in Frameworks */,
-				6DF5A68823DDF4DE0086B040 /* BCSUniverse.xcframework in Frameworks */,
-				6DF5A69A23DDF4DF0086B040 /* BrokerServiceModule.xcframework in Frameworks */,
-				6DF5A69623DDF4DF0086B040 /* BrokerProductsModule.xcframework in Frameworks */,
+				03786C2223DEDF7E0098F325 /* BCSUniverse.xcframework in Frameworks */,
+				03786C3423DEDF7F0098F325 /* BrokerServiceModule.xcframework in Frameworks */,
+				03786C3023DEDF7F0098F325 /* BrokerProductsModule.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +189,7 @@
 				6D19C5BA23DDDE0800BFA734 /* Frameworks */,
 				6D19C5BB23DDDE0800BFA734 /* Resources */,
 				8557CF1BC0C8343B0B0FC203 /* [CP] Embed Pods Frameworks */,
-				6DF5A6A223DDF4DF0086B040 /* Embed Frameworks */,
+				03786C3C23DEDF800098F325 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
