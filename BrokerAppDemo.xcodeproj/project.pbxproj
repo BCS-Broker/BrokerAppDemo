@@ -3,88 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03786C2223DEDF7E0098F325 /* BCSUniverse.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67B23DDF4DE0086B040 /* BCSUniverse.xcframework */; };
-		03786C2323DEDF7E0098F325 /* BCSUniverse.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67B23DDF4DE0086B040 /* BCSUniverse.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		03786C2423DEDF7E0098F325 /* BrokerApp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67C23DDF4DE0086B040 /* BrokerApp.xcframework */; };
-		03786C2523DEDF7E0098F325 /* BrokerApp.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67C23DDF4DE0086B040 /* BrokerApp.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		03786C2623DEDF7E0098F325 /* BrokerAuthModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67D23DDF4DE0086B040 /* BrokerAuthModule.xcframework */; };
-		03786C2723DEDF7E0098F325 /* BrokerAuthModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67D23DDF4DE0086B040 /* BrokerAuthModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		03786C2823DEDF7E0098F325 /* BrokerData.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67E23DDF4DE0086B040 /* BrokerData.xcframework */; };
-		03786C2923DEDF7E0098F325 /* BrokerData.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67E23DDF4DE0086B040 /* BrokerData.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		03786C2A23DEDF7E0098F325 /* BrokerInformationModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67F23DDF4DE0086B040 /* BrokerInformationModule.xcframework */; };
-		03786C2B23DEDF7F0098F325 /* BrokerInformationModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A67F23DDF4DE0086B040 /* BrokerInformationModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		03786C2C23DEDF7F0098F325 /* BrokerOpenAccountModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68023DDF4DE0086B040 /* BrokerOpenAccountModule.xcframework */; };
-		03786C2D23DEDF7F0098F325 /* BrokerOpenAccountModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68023DDF4DE0086B040 /* BrokerOpenAccountModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		03786C2E23DEDF7F0098F325 /* BrokerPortfelModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68123DDF4DE0086B040 /* BrokerPortfelModule.xcframework */; };
-		03786C2F23DEDF7F0098F325 /* BrokerPortfelModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68123DDF4DE0086B040 /* BrokerPortfelModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		03786C3023DEDF7F0098F325 /* BrokerProductsModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68223DDF4DE0086B040 /* BrokerProductsModule.xcframework */; };
-		03786C3123DEDF7F0098F325 /* BrokerProductsModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68223DDF4DE0086B040 /* BrokerProductsModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		03786C3223DEDF7F0098F325 /* BrokerQuotesModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68323DDF4DE0086B040 /* BrokerQuotesModule.xcframework */; };
-		03786C3323DEDF7F0098F325 /* BrokerQuotesModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68323DDF4DE0086B040 /* BrokerQuotesModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		03786C3423DEDF7F0098F325 /* BrokerServiceModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68423DDF4DE0086B040 /* BrokerServiceModule.xcframework */; };
-		03786C3523DEDF7F0098F325 /* BrokerServiceModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68423DDF4DE0086B040 /* BrokerServiceModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		03786C3623DEDF7F0098F325 /* BrokerTradingModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68523DDF4DE0086B040 /* BrokerTradingModule.xcframework */; };
-		03786C3723DEDF7F0098F325 /* BrokerTradingModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68523DDF4DE0086B040 /* BrokerTradingModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		03786C3823DEDF7F0098F325 /* BrokerUIKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68623DDF4DE0086B040 /* BrokerUIKit.xcframework */; };
-		03786C3923DEDF7F0098F325 /* BrokerUIKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68623DDF4DE0086B040 /* BrokerUIKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		03786C3A23DEDF7F0098F325 /* BrokerWithdrawDepositModule.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68723DDF4DE0086B040 /* BrokerWithdrawDepositModule.xcframework */; };
-		03786C3B23DEDF7F0098F325 /* BrokerWithdrawDepositModule.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF5A68723DDF4DE0086B040 /* BrokerWithdrawDepositModule.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		03786C6723DF2B5E0098F325 /* wildcard_broker_ru.cer in Resources */ = {isa = PBXBuildFile; fileRef = 03786C6623DF2B5E0098F325 /* wildcard_broker_ru.cer */; };
+		64DF9A2117940C68D8D62A66 /* Pods_BrokerAppDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AAFC1AB31721B0C41DCCFF /* Pods_BrokerAppDemo.framework */; };
 		6D19C5C123DDDE0800BFA734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19C5C023DDDE0800BFA734 /* AppDelegate.swift */; };
 		6D19C5CA23DDDE0C00BFA734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D19C5C923DDDE0C00BFA734 /* Assets.xcassets */; };
 		6D19C5CD23DDDE0C00BFA734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D19C5CB23DDDE0C00BFA734 /* LaunchScreen.storyboard */; };
 		6DF5A6DF23DE132E0086B040 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5A6DE23DE132E0086B040 /* main.swift */; };
-		EECCAEDDFF8916EFD3B60582 /* Pods_BrokerAppDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AAFC1AB31721B0C41DCCFF /* Pods_BrokerAppDemo.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		03786C3C23DEDF800098F325 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				03786C2B23DEDF7F0098F325 /* BrokerInformationModule.xcframework in Embed Frameworks */,
-				03786C2923DEDF7E0098F325 /* BrokerData.xcframework in Embed Frameworks */,
-				03786C3B23DEDF7F0098F325 /* BrokerWithdrawDepositModule.xcframework in Embed Frameworks */,
-				03786C2F23DEDF7F0098F325 /* BrokerPortfelModule.xcframework in Embed Frameworks */,
-				03786C2723DEDF7E0098F325 /* BrokerAuthModule.xcframework in Embed Frameworks */,
-				03786C3723DEDF7F0098F325 /* BrokerTradingModule.xcframework in Embed Frameworks */,
-				03786C3923DEDF7F0098F325 /* BrokerUIKit.xcframework in Embed Frameworks */,
-				03786C3323DEDF7F0098F325 /* BrokerQuotesModule.xcframework in Embed Frameworks */,
-				03786C3123DEDF7F0098F325 /* BrokerProductsModule.xcframework in Embed Frameworks */,
-				03786C2523DEDF7E0098F325 /* BrokerApp.xcframework in Embed Frameworks */,
-				03786C2D23DEDF7F0098F325 /* BrokerOpenAccountModule.xcframework in Embed Frameworks */,
-				03786C3523DEDF7F0098F325 /* BrokerServiceModule.xcframework in Embed Frameworks */,
-				03786C2323DEDF7E0098F325 /* BCSUniverse.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		03786C6623DF2B5E0098F325 /* wildcard_broker_ru.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = wildcard_broker_ru.cer; sourceTree = "<group>"; };
 		6D19C5BD23DDDE0800BFA734 /* BrokerAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrokerAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D19C5C023DDDE0800BFA734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D19C5C923DDDE0C00BFA734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D19C5CC23DDDE0C00BFA734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D19C5CE23DDDE0C00BFA734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DF5A67B23DDF4DE0086B040 /* BCSUniverse.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BCSUniverse.xcframework; path = Pods/BCSUniverse/BCSUniverse.xcframework; sourceTree = "<group>"; };
-		6DF5A67C23DDF4DE0086B040 /* BrokerApp.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BrokerApp.xcframework; path = Pods/BrokerApp/BrokerApp.xcframework; sourceTree = "<group>"; };
-		6DF5A67D23DDF4DE0086B040 /* BrokerAuthModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BrokerAuthModule.xcframework; path = Pods/BrokerAuthModule/BrokerAuthModule.xcframework; sourceTree = "<group>"; };
-		6DF5A67E23DDF4DE0086B040 /* BrokerData.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BrokerData.xcframework; path = Pods/BrokerData/BrokerData.xcframework; sourceTree = "<group>"; };
-		6DF5A67F23DDF4DE0086B040 /* BrokerInformationModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BrokerInformationModule.xcframework; path = Pods/BrokerInformationModule/BrokerInformationModule.xcframework; sourceTree = "<group>"; };
-		6DF5A68023DDF4DE0086B040 /* BrokerOpenAccountModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BrokerOpenAccountModule.xcframework; path = Pods/BrokerOpenAccountModule/BrokerOpenAccountModule.xcframework; sourceTree = "<group>"; };
-		6DF5A68123DDF4DE0086B040 /* BrokerPortfelModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BrokerPortfelModule.xcframework; path = Pods/BrokerPortfelModule/BrokerPortfelModule.xcframework; sourceTree = "<group>"; };
-		6DF5A68223DDF4DE0086B040 /* BrokerProductsModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BrokerProductsModule.xcframework; path = Pods/BrokerProductsModule/BrokerProductsModule.xcframework; sourceTree = "<group>"; };
-		6DF5A68323DDF4DE0086B040 /* BrokerQuotesModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BrokerQuotesModule.xcframework; path = Pods/BrokerQuotesModule/BrokerQuotesModule.xcframework; sourceTree = "<group>"; };
-		6DF5A68423DDF4DE0086B040 /* BrokerServiceModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BrokerServiceModule.xcframework; path = Pods/BrokerServiceModule/BrokerServiceModule.xcframework; sourceTree = "<group>"; };
-		6DF5A68523DDF4DE0086B040 /* BrokerTradingModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BrokerTradingModule.xcframework; path = Pods/BrokerTradingModule/BrokerTradingModule.xcframework; sourceTree = "<group>"; };
-		6DF5A68623DDF4DE0086B040 /* BrokerUIKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BrokerUIKit.xcframework; path = Pods/BrokerUIKit/BrokerUIKit.xcframework; sourceTree = "<group>"; };
-		6DF5A68723DDF4DE0086B040 /* BrokerWithdrawDepositModule.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BrokerWithdrawDepositModule.xcframework; path = Pods/BrokerWithdrawDepositModule/BrokerWithdrawDepositModule.xcframework; sourceTree = "<group>"; };
 		6DF5A6DE23DE132E0086B040 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		794D51C3D02581451D8E9F94 /* Pods-BrokerAppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrokerAppDemo.release.xcconfig"; path = "Target Support Files/Pods-BrokerAppDemo/Pods-BrokerAppDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E1CCE7B5C063066CDC3950B4 /* Pods-BrokerAppDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrokerAppDemo.debug.xcconfig"; path = "Target Support Files/Pods-BrokerAppDemo/Pods-BrokerAppDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,26 +33,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03786C2823DEDF7E0098F325 /* BrokerData.xcframework in Frameworks */,
-				03786C2C23DEDF7F0098F325 /* BrokerOpenAccountModule.xcframework in Frameworks */,
-				03786C3823DEDF7F0098F325 /* BrokerUIKit.xcframework in Frameworks */,
-				03786C3A23DEDF7F0098F325 /* BrokerWithdrawDepositModule.xcframework in Frameworks */,
-				03786C3623DEDF7F0098F325 /* BrokerTradingModule.xcframework in Frameworks */,
-				03786C2A23DEDF7E0098F325 /* BrokerInformationModule.xcframework in Frameworks */,
-				03786C3223DEDF7F0098F325 /* BrokerQuotesModule.xcframework in Frameworks */,
-				03786C2623DEDF7E0098F325 /* BrokerAuthModule.xcframework in Frameworks */,
-				03786C2423DEDF7E0098F325 /* BrokerApp.xcframework in Frameworks */,
-				03786C2E23DEDF7F0098F325 /* BrokerPortfelModule.xcframework in Frameworks */,
-				EECCAEDDFF8916EFD3B60582 /* Pods_BrokerAppDemo.framework in Frameworks */,
-				03786C2223DEDF7E0098F325 /* BCSUniverse.xcframework in Frameworks */,
-				03786C3423DEDF7F0098F325 /* BrokerServiceModule.xcframework in Frameworks */,
-				03786C3023DEDF7F0098F325 /* BrokerProductsModule.xcframework in Frameworks */,
+				64DF9A2117940C68D8D62A66 /* Pods_BrokerAppDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03786C6523DF2B5E0098F325 /* Certificates */ = {
+			isa = PBXGroup;
+			children = (
+				03786C6623DF2B5E0098F325 /* wildcard_broker_ru.cer */,
+			);
+			path = Certificates;
+			sourceTree = "<group>";
+		};
 		1040CC7C2B25902B12C59817 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +78,7 @@
 		6D19C5BF23DDDE0800BFA734 /* BrokerAppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				03786C6523DF2B5E0098F325 /* Certificates */,
 				6D19C5C023DDDE0800BFA734 /* AppDelegate.swift */,
 				6D19C5C923DDDE0C00BFA734 /* Assets.xcassets */,
 				6D19C5CB23DDDE0C00BFA734 /* LaunchScreen.storyboard */,
@@ -158,19 +91,6 @@
 		D78D5327898AC2A0971C16BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6DF5A67B23DDF4DE0086B040 /* BCSUniverse.xcframework */,
-				6DF5A67C23DDF4DE0086B040 /* BrokerApp.xcframework */,
-				6DF5A67D23DDF4DE0086B040 /* BrokerAuthModule.xcframework */,
-				6DF5A67E23DDF4DE0086B040 /* BrokerData.xcframework */,
-				6DF5A67F23DDF4DE0086B040 /* BrokerInformationModule.xcframework */,
-				6DF5A68023DDF4DE0086B040 /* BrokerOpenAccountModule.xcframework */,
-				6DF5A68123DDF4DE0086B040 /* BrokerPortfelModule.xcframework */,
-				6DF5A68223DDF4DE0086B040 /* BrokerProductsModule.xcframework */,
-				6DF5A68323DDF4DE0086B040 /* BrokerQuotesModule.xcframework */,
-				6DF5A68423DDF4DE0086B040 /* BrokerServiceModule.xcframework */,
-				6DF5A68523DDF4DE0086B040 /* BrokerTradingModule.xcframework */,
-				6DF5A68623DDF4DE0086B040 /* BrokerUIKit.xcframework */,
-				6DF5A68723DDF4DE0086B040 /* BrokerWithdrawDepositModule.xcframework */,
 				F4AAFC1AB31721B0C41DCCFF /* Pods_BrokerAppDemo.framework */,
 			);
 			name = Frameworks;
@@ -184,12 +104,10 @@
 			buildConfigurationList = 6D19C5D123DDDE0C00BFA734 /* Build configuration list for PBXNativeTarget "BrokerAppDemo" */;
 			buildPhases = (
 				4543BD11F558798BB49CE67B /* [CP] Check Pods Manifest.lock */,
-				8E55F4D097CBB562E0B893A5 /* [CP] Prepare Artifacts */,
 				6D19C5B923DDDE0800BFA734 /* Sources */,
 				6D19C5BA23DDDE0800BFA734 /* Frameworks */,
 				6D19C5BB23DDDE0800BFA734 /* Resources */,
-				8557CF1BC0C8343B0B0FC203 /* [CP] Embed Pods Frameworks */,
-				03786C3C23DEDF800098F325 /* Embed Frameworks */,
+				2059D70F2CE81AAED7C4FF5B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,7 +134,7 @@
 				};
 			};
 			buildConfigurationList = 6D19C5B823DDDE0800BFA734 /* Build configuration list for PBXProject "BrokerAppDemo" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -238,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03786C6723DF2B5E0098F325 /* wildcard_broker_ru.cer in Resources */,
 				6D19C5CD23DDDE0C00BFA734 /* LaunchScreen.storyboard in Resources */,
 				6D19C5CA23DDDE0C00BFA734 /* Assets.xcassets in Resources */,
 			);
@@ -246,6 +165,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2059D70F2CE81AAED7C4FF5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrokerAppDemo/Pods-BrokerAppDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrokerAppDemo/Pods-BrokerAppDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrokerAppDemo/Pods-BrokerAppDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4543BD11F558798BB49CE67B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,40 +202,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8557CF1BC0C8343B0B0FC203 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BrokerAppDemo/Pods-BrokerAppDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BrokerAppDemo/Pods-BrokerAppDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrokerAppDemo/Pods-BrokerAppDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8E55F4D097CBB562E0B893A5 /* [CP] Prepare Artifacts */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BrokerAppDemo/Pods-BrokerAppDemo-artifacts-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Prepare Artifacts";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BrokerAppDemo/Pods-BrokerAppDemo-artifacts-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrokerAppDemo/Pods-BrokerAppDemo-artifacts.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -449,6 +351,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B92M3CX86P;
 				INFOPLIST_FILE = BrokerAppDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -456,11 +359,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.bcs.broker.framework.demo.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BCS Broker Demo App (Development)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64 arm64e";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = x86_64;
 			};
 			name = Debug;
 		};
@@ -471,6 +378,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B92M3CX86P;
 				INFOPLIST_FILE = BrokerAppDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -478,11 +386,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.bcs.broker.framework.demo.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "BCS Broker Demo App (Development)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64 arm64e";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = x86_64;
 			};
 			name = Release;
 		};
