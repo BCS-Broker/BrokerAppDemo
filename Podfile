@@ -7,6 +7,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target :BrokerAppDemo do
   pod 'BrokerApp'
+  pod 'APICore', '3.0.4'
 end
 
 
