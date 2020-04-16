@@ -46,7 +46,7 @@
 		4F9C49992448E9D300B6CF3E /* CustomStartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStartVC.swift; sourceTree = "<group>"; };
 		4F9C499A2448E9D300B6CF3E /* CustomOnboardingPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOnboardingPageVC.swift; sourceTree = "<group>"; };
 		4F9C499B2448E9D300B6CF3E /* CustomPortfelHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPortfelHeaderVC.swift; sourceTree = "<group>"; };
-		6D19C5BD23DDDE0800BFA734 /* MyBroker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBroker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D19C5BD23DDDE0800BFA734 /* Oh My Broker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oh My Broker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D19C5C023DDDE0800BFA734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D19C5C923DDDE0C00BFA734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D19C5CE23DDDE0C00BFA734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 		6D19C5BE23DDDE0800BFA734 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D19C5BD23DDDE0800BFA734 /* MyBroker.app */,
+				6D19C5BD23DDDE0800BFA734 /* Oh My Broker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -189,7 +189,7 @@
 			);
 			name = BrokerAppDemo;
 			productName = BrokerAppDemo;
-			productReference = 6D19C5BD23DDDE0800BFA734 /* MyBroker.app */;
+			productReference = 6D19C5BD23DDDE0800BFA734 /* Oh My Broker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -438,7 +438,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.bcs.broker.framework.demo.customizedapp;
-				PRODUCT_NAME = MyBroker;
+				PRODUCT_NAME = "Oh My Broker";
 				PROVISIONING_PROFILE_SPECIFIER = "BCS Broker Demo App (InHouse)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -465,7 +465,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.bcs.broker.framework.demo.customizedapp;
-				PRODUCT_NAME = MyBroker;
+				PRODUCT_NAME = "Oh My Broker";
 				PROVISIONING_PROFILE_SPECIFIER = "BCS Broker Demo App (InHouse)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
