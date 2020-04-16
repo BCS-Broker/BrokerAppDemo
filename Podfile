@@ -2,12 +2,13 @@ platform :ios, '11.0'
 use_frameworks!
 inhibit_all_warnings!
  
-
 source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/ABTSoftware/PodSpecs3.x.git'
+
 
 target :BrokerAppDemo do
   pod 'BrokerApp'
-  pod 'APICore', '3.0.4'
+  pod 'SciChart', '~> 3.0.1-nightly'
 end
 
 

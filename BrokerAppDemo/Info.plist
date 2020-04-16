@@ -87,6 +87,11 @@
 	<string>Для сохранения QR-кода платежа</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Требуется для возможности загрузки фотографий</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>get_schwifty.ttf</string>
+		<string>rick_and_morty.ttf</string>
+	</array>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>fetch</string>

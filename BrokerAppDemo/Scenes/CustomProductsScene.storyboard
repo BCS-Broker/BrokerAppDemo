@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Custom ProductsVC-->
+        <scene sceneID="ScA-2K-PJA">
+            <objects>
+                <viewController restorationIdentifier="CustomProducts" storyboardIdentifier="CustomProducts" id="1nd-fL-fDT" customClass="CustomProductsVC" customModule="BrokerAppCustomizedDemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mJD-Wh-UjP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4bI-Dp-6wz">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BVw-eJ-wlw" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="pnx-oO-S2A">
+                                                <rect key="frame" x="20" y="0.0" width="374" height="670"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="7v5-Ju-Y2g">
+                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="210"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Avu-g2-xtm">
+                                                                <rect key="frame" x="0.0" y="0.0" width="174.5" height="210"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x14-Gc-zLE">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="174.5" height="174.5"/>
+                                                                        <state key="normal" image="missioncontrol_96098"/>
+                                                                        <connections>
+                                                                            <action selector="newsTapped:" destination="1nd-fL-fDT" eventType="touchUpInside" id="eVL-y3-PjR"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Новости" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfW-Am-w4x">
+                                                                        <rect key="frame" x="44.5" y="174.5" width="86" height="35.5"/>
+                                                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstItem="x14-Gc-zLE" firstAttribute="width" secondItem="x14-Gc-zLE" secondAttribute="height" multiplier="1:1" id="6Xf-m3-fjn"/>
+                                                                </constraints>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gp7-WQ-ICJ">
+                                                                <rect key="frame" x="199.5" y="0.0" width="174.5" height="210"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1BP-zB-Eqq">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="174.5" height="174.5"/>
+                                                                        <state key="normal" image="spaceshuttlelaunch_96152"/>
+                                                                        <connections>
+                                                                            <action selector="strategiesTapped:" destination="1nd-fL-fDT" eventType="touchUpInside" id="yl6-kn-JhI"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Стратегии" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPa-wB-xbr">
+                                                                        <rect key="frame" x="35.5" y="174.5" width="103.5" height="35.5"/>
+                                                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstItem="1BP-zB-Eqq" firstAttribute="width" secondItem="1BP-zB-Eqq" secondAttribute="height" multiplier="1:1" id="HQW-YG-Hcv"/>
+                                                                </constraints>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="acg-na-2mq">
+                                                        <rect key="frame" x="0.0" y="230" width="374" height="210"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Bpa-vE-8i4">
+                                                                <rect key="frame" x="0.0" y="0.0" width="174.5" height="210"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K91-pi-U9F">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="174.5" height="174.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" secondItem="K91-pi-U9F" secondAttribute="height" multiplier="1:1" id="sZ1-hv-RC4"/>
+                                                                        </constraints>
+                                                                        <state key="normal" image="deathstar_96134"/>
+                                                                        <connections>
+                                                                            <action selector="ideasTapped:" destination="1nd-fL-fDT" eventType="touchUpInside" id="qhP-Wi-1ZA"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Инвест идеи" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sLm-B4-6Kw">
+                                                                        <rect key="frame" x="26" y="174.5" width="122.5" height="35.5"/>
+                                                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1gV-IR-C3f">
+                                                                <rect key="frame" x="199.5" y="0.0" width="174.5" height="210"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XJg-MO-ckx">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="174.5" height="174.5"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" secondItem="XJg-MO-ckx" secondAttribute="height" multiplier="1:1" id="DB4-Ov-38N"/>
+                                                                        </constraints>
+                                                                        <state key="normal" image="spacerover2_96119"/>
+                                                                        <connections>
+                                                                            <action selector="iiaIdeasTapped:" destination="1nd-fL-fDT" eventType="touchUpInside" id="rMP-fn-luI"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Идеи для ИИС" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRq-bd-137">
+                                                                        <rect key="frame" x="16.5" y="174.5" width="142" height="35.5"/>
+                                                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="sNQ-4q-q39">
+                                                        <rect key="frame" x="0.0" y="460" width="374" height="210"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eNy-eG-yJQ">
+                                                                <rect key="frame" x="0.0" y="0.0" width="174.5" height="210"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bE8-Cb-K8w">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="174.5" height="174.5"/>
+                                                                        <state key="normal" image="landingspacecapsule_96101"/>
+                                                                        <connections>
+                                                                            <action selector="portfoliosTapped:" destination="1nd-fL-fDT" eventType="touchUpInside" id="jyO-10-r85"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Портфели" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iyB-k5-OUE">
+                                                                        <rect key="frame" x="37.5" y="174.5" width="100" height="35.5"/>
+                                                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstItem="bE8-Cb-K8w" firstAttribute="width" secondItem="bE8-Cb-K8w" secondAttribute="height" multiplier="1:1" id="ywc-eT-sAr"/>
+                                                                </constraints>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8Bj-CF-icJ">
+                                                                <rect key="frame" x="199.5" y="0.0" width="174.5" height="210"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="clZ-iK-wPP">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="174.5" height="174.5"/>
+                                                                        <state key="normal" image="alien4_96133"/>
+                                                                        <connections>
+                                                                            <action selector="authorTapped:" destination="1nd-fL-fDT" eventType="touchUpInside" id="gVK-eB-q5t"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Авторы" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZf-Ai-aqK">
+                                                                        <rect key="frame" x="48.5" y="174.5" width="78" height="35.5"/>
+                                                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstItem="clZ-iK-wPP" firstAttribute="width" secondItem="clZ-iK-wPP" secondAttribute="height" multiplier="1:1" id="2IA-Ju-RtI"/>
+                                                                </constraints>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="pnx-oO-S2A" secondAttribute="trailing" constant="20" id="5cI-Dx-Bk7"/>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="pnx-oO-S2A" secondAttribute="bottom" id="INa-a6-XX5"/>
+                                            <constraint firstItem="pnx-oO-S2A" firstAttribute="top" secondItem="BVw-eJ-wlw" secondAttribute="top" id="hqd-QN-8JJ"/>
+                                            <constraint firstItem="pnx-oO-S2A" firstAttribute="leading" secondItem="BVw-eJ-wlw" secondAttribute="leading" constant="20" id="xPI-S2-eDA"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="BVw-eJ-wlw" secondAttribute="bottom" id="7C1-wc-Eqs"/>
+                                    <constraint firstItem="BVw-eJ-wlw" firstAttribute="height" secondItem="4bI-Dp-6wz" secondAttribute="height" priority="250" id="DIW-LY-O0X"/>
+                                    <constraint firstItem="BVw-eJ-wlw" firstAttribute="centerX" secondItem="4bI-Dp-6wz" secondAttribute="centerX" id="Nrr-bZ-KLH"/>
+                                    <constraint firstAttribute="trailing" secondItem="BVw-eJ-wlw" secondAttribute="trailing" id="XWY-TM-nRk"/>
+                                    <constraint firstItem="BVw-eJ-wlw" firstAttribute="leading" secondItem="4bI-Dp-6wz" secondAttribute="leading" id="uTg-6B-ORW"/>
+                                    <constraint firstItem="BVw-eJ-wlw" firstAttribute="top" secondItem="4bI-Dp-6wz" secondAttribute="top" id="uuB-gf-Pc6"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="2IQ-9Z-UNw"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="nl2-Ga-dWr"/>
+                            </scrollView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="zrj-hz-2Aa" firstAttribute="bottom" secondItem="4bI-Dp-6wz" secondAttribute="bottom" id="KN7-9Z-app"/>
+                            <constraint firstAttribute="trailing" secondItem="4bI-Dp-6wz" secondAttribute="trailing" id="Rrc-aV-Mcu"/>
+                            <constraint firstItem="4bI-Dp-6wz" firstAttribute="leading" secondItem="mJD-Wh-UjP" secondAttribute="leading" id="o2u-kJ-zLj"/>
+                            <constraint firstItem="zrj-hz-2Aa" firstAttribute="top" secondItem="4bI-Dp-6wz" secondAttribute="top" id="rq8-wM-QXr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zrj-hz-2Aa"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hhv-54-r0e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-207.24637681159422" y="162.72321428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="alien4_96133" width="256" height="256"/>
+        <image name="deathstar_96134" width="256" height="256"/>
+        <image name="landingspacecapsule_96101" width="256" height="256"/>
+        <image name="missioncontrol_96098" width="256" height="256"/>
+        <image name="spacerover2_96119" width="256" height="256"/>
+        <image name="spaceshuttlelaunch_96152" width="256" height="256"/>
+    </resources>
+</document>

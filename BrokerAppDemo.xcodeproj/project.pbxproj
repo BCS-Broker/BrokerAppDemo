@@ -8,19 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		03786C6723DF2B5E0098F325 /* wildcard_broker_ru.cer in Resources */ = {isa = PBXBuildFile; fileRef = 03786C6623DF2B5E0098F325 /* wildcard_broker_ru.cer */; };
+		4F9C498A2448E9C500B6CF3E /* Customizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C49892448E9C500B6CF3E /* Customizer.swift */; };
+		4F9C499C2448E9EA00B6CF3E /* CustomBrokerAppFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C498F2448E9D300B6CF3E /* CustomBrokerAppFactory.swift */; };
+		4F9C499D2448E9EA00B6CF3E /* CustomAuthModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C49902448E9D300B6CF3E /* CustomAuthModuleFactory.swift */; };
+		4F9C499E2448E9EA00B6CF3E /* CustomPortfelModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C49912448E9D300B6CF3E /* CustomPortfelModuleFactory.swift */; };
+		4F9C499F2448E9EA00B6CF3E /* CustomUIKitModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C49922448E9D300B6CF3E /* CustomUIKitModuleFactory.swift */; };
+		4F9C49A02448E9FD00B6CF3E /* rick_and_morty.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F9C498C2448E9D300B6CF3E /* rick_and_morty.ttf */; };
+		4F9C49A12448E9FD00B6CF3E /* get_schwifty.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F9C498D2448E9D300B6CF3E /* get_schwifty.ttf */; };
+		4F9C49A22448EA0200B6CF3E /* CustomProductsScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9C49972448E9D300B6CF3E /* CustomProductsScene.storyboard */; };
+		4F9C49A32448EA0200B6CF3E /* CustomProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C49982448E9D300B6CF3E /* CustomProductsVC.swift */; };
+		4F9C49A42448EA0200B6CF3E /* CustomStartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C49992448E9D300B6CF3E /* CustomStartVC.swift */; };
+		4F9C49A52448EA0200B6CF3E /* CustomOnboardingPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C499A2448E9D300B6CF3E /* CustomOnboardingPageVC.swift */; };
+		4F9C49A62448EA0200B6CF3E /* CustomPortfelHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C499B2448E9D300B6CF3E /* CustomPortfelHeaderVC.swift */; };
+		4F9C49A72448EA0600B6CF3E /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C49942448E9D300B6CF3E /* UIButton.swift */; };
+		4F9C49A82448EA0B00B6CF3E /* BroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C49952448E9D300B6CF3E /* BroTextField.swift */; };
+		4F9C49A92448EA6800B6CF3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9C49882448E9C000B6CF3E /* LaunchScreen.storyboard */; };
 		64DF9A2117940C68D8D62A66 /* Pods_BrokerAppDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AAFC1AB31721B0C41DCCFF /* Pods_BrokerAppDemo.framework */; };
 		6D19C5C123DDDE0800BFA734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19C5C023DDDE0800BFA734 /* AppDelegate.swift */; };
 		6D19C5CA23DDDE0C00BFA734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D19C5C923DDDE0C00BFA734 /* Assets.xcassets */; };
-		6D19C5CD23DDDE0C00BFA734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D19C5CB23DDDE0C00BFA734 /* LaunchScreen.storyboard */; };
 		6DF5A6DF23DE132E0086B040 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5A6DE23DE132E0086B040 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03786C6623DF2B5E0098F325 /* wildcard_broker_ru.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = wildcard_broker_ru.cer; sourceTree = "<group>"; };
-		6D19C5BD23DDDE0800BFA734 /* BrokerAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrokerAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9C49882448E9C000B6CF3E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F9C49892448E9C500B6CF3E /* Customizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customizer.swift; sourceTree = "<group>"; };
+		4F9C498C2448E9D300B6CF3E /* rick_and_morty.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = rick_and_morty.ttf; sourceTree = "<group>"; };
+		4F9C498D2448E9D300B6CF3E /* get_schwifty.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = get_schwifty.ttf; sourceTree = "<group>"; };
+		4F9C498F2448E9D300B6CF3E /* CustomBrokerAppFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBrokerAppFactory.swift; sourceTree = "<group>"; };
+		4F9C49902448E9D300B6CF3E /* CustomAuthModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthModuleFactory.swift; sourceTree = "<group>"; };
+		4F9C49912448E9D300B6CF3E /* CustomPortfelModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPortfelModuleFactory.swift; sourceTree = "<group>"; };
+		4F9C49922448E9D300B6CF3E /* CustomUIKitModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIKitModuleFactory.swift; sourceTree = "<group>"; };
+		4F9C49942448E9D300B6CF3E /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		4F9C49952448E9D300B6CF3E /* BroTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroTextField.swift; sourceTree = "<group>"; };
+		4F9C49972448E9D300B6CF3E /* CustomProductsScene.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomProductsScene.storyboard; sourceTree = "<group>"; };
+		4F9C49982448E9D300B6CF3E /* CustomProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProductsVC.swift; sourceTree = "<group>"; };
+		4F9C49992448E9D300B6CF3E /* CustomStartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStartVC.swift; sourceTree = "<group>"; };
+		4F9C499A2448E9D300B6CF3E /* CustomOnboardingPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOnboardingPageVC.swift; sourceTree = "<group>"; };
+		4F9C499B2448E9D300B6CF3E /* CustomPortfelHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPortfelHeaderVC.swift; sourceTree = "<group>"; };
+		6D19C5BD23DDDE0800BFA734 /* MyBroker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBroker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D19C5C023DDDE0800BFA734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D19C5C923DDDE0C00BFA734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6D19C5CC23DDDE0C00BFA734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D19C5CE23DDDE0C00BFA734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DF5A6DE23DE132E0086B040 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		794D51C3D02581451D8E9F94 /* Pods-BrokerAppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrokerAppDemo.release.xcconfig"; path = "Target Support Files/Pods-BrokerAppDemo/Pods-BrokerAppDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -57,6 +85,47 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		4F9C498B2448E9D300B6CF3E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4F9C498C2448E9D300B6CF3E /* rick_and_morty.ttf */,
+				4F9C498D2448E9D300B6CF3E /* get_schwifty.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4F9C498E2448E9D300B6CF3E /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				4F9C498F2448E9D300B6CF3E /* CustomBrokerAppFactory.swift */,
+				4F9C49902448E9D300B6CF3E /* CustomAuthModuleFactory.swift */,
+				4F9C49912448E9D300B6CF3E /* CustomPortfelModuleFactory.swift */,
+				4F9C49922448E9D300B6CF3E /* CustomUIKitModuleFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		4F9C49932448E9D300B6CF3E /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				4F9C49942448E9D300B6CF3E /* UIButton.swift */,
+				4F9C49952448E9D300B6CF3E /* BroTextField.swift */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		4F9C49962448E9D300B6CF3E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4F9C49972448E9D300B6CF3E /* CustomProductsScene.storyboard */,
+				4F9C49982448E9D300B6CF3E /* CustomProductsVC.swift */,
+				4F9C49992448E9D300B6CF3E /* CustomStartVC.swift */,
+				4F9C499A2448E9D300B6CF3E /* CustomOnboardingPageVC.swift */,
+				4F9C499B2448E9D300B6CF3E /* CustomPortfelHeaderVC.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		6D19C5B423DDDE0800BFA734 = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +139,7 @@
 		6D19C5BE23DDDE0800BFA734 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D19C5BD23DDDE0800BFA734 /* BrokerAppDemo.app */,
+				6D19C5BD23DDDE0800BFA734 /* MyBroker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,10 +147,15 @@
 		6D19C5BF23DDDE0800BFA734 /* BrokerAppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4F9C498E2448E9D300B6CF3E /* Factories */,
+				4F9C498B2448E9D300B6CF3E /* Fonts */,
+				4F9C49962448E9D300B6CF3E /* Scenes */,
+				4F9C49932448E9D300B6CF3E /* Themes */,
 				03786C6523DF2B5E0098F325 /* Certificates */,
 				6D19C5C023DDDE0800BFA734 /* AppDelegate.swift */,
+				4F9C49882448E9C000B6CF3E /* LaunchScreen.storyboard */,
+				4F9C49892448E9C500B6CF3E /* Customizer.swift */,
 				6D19C5C923DDDE0C00BFA734 /* Assets.xcassets */,
-				6D19C5CB23DDDE0C00BFA734 /* LaunchScreen.storyboard */,
 				6D19C5CE23DDDE0C00BFA734 /* Info.plist */,
 				6DF5A6DE23DE132E0086B040 /* main.swift */,
 			);
@@ -115,7 +189,7 @@
 			);
 			name = BrokerAppDemo;
 			productName = BrokerAppDemo;
-			productReference = 6D19C5BD23DDDE0800BFA734 /* BrokerAppDemo.app */;
+			productReference = 6D19C5BD23DDDE0800BFA734 /* MyBroker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -156,8 +230,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9C49A12448E9FD00B6CF3E /* get_schwifty.ttf in Resources */,
 				03786C6723DF2B5E0098F325 /* wildcard_broker_ru.cer in Resources */,
-				6D19C5CD23DDDE0C00BFA734 /* LaunchScreen.storyboard in Resources */,
+				4F9C49A22448EA0200B6CF3E /* CustomProductsScene.storyboard in Resources */,
+				4F9C49A92448EA6800B6CF3E /* LaunchScreen.storyboard in Resources */,
+				4F9C49A02448E9FD00B6CF3E /* rick_and_morty.ttf in Resources */,
 				6D19C5CA23DDDE0C00BFA734 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,23 +288,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9C499D2448E9EA00B6CF3E /* CustomAuthModuleFactory.swift in Sources */,
+				4F9C49A32448EA0200B6CF3E /* CustomProductsVC.swift in Sources */,
+				4F9C499C2448E9EA00B6CF3E /* CustomBrokerAppFactory.swift in Sources */,
+				4F9C499E2448E9EA00B6CF3E /* CustomPortfelModuleFactory.swift in Sources */,
 				6DF5A6DF23DE132E0086B040 /* main.swift in Sources */,
+				4F9C498A2448E9C500B6CF3E /* Customizer.swift in Sources */,
+				4F9C49A62448EA0200B6CF3E /* CustomPortfelHeaderVC.swift in Sources */,
+				4F9C49A82448EA0B00B6CF3E /* BroTextField.swift in Sources */,
 				6D19C5C123DDDE0800BFA734 /* AppDelegate.swift in Sources */,
+				4F9C49A52448EA0200B6CF3E /* CustomOnboardingPageVC.swift in Sources */,
+				4F9C499F2448E9EA00B6CF3E /* CustomUIKitModuleFactory.swift in Sources */,
+				4F9C49A42448EA0200B6CF3E /* CustomStartVC.swift in Sources */,
+				4F9C49A72448EA0600B6CF3E /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		6D19C5CB23DDDE0C00BFA734 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D19C5CC23DDDE0C00BFA734 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6D19C5CF23DDDE0C00BFA734 /* Debug */ = {
@@ -349,7 +426,7 @@
 			baseConfigurationReference = E1CCE7B5C063066CDC3950B4 /* Pods-BrokerAppDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B92M3CX86P;
@@ -360,9 +437,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.bcs.broker.framework.demo.app;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "BCS Broker Demo App (Development)";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.bcs.broker.framework.demo.customizedapp;
+				PRODUCT_NAME = MyBroker;
+				PROVISIONING_PROFILE_SPECIFIER = "BCS Broker Demo App (InHouse)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 arm64e";
@@ -376,7 +453,7 @@
 			baseConfigurationReference = 794D51C3D02581451D8E9F94 /* Pods-BrokerAppDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B92M3CX86P;
@@ -387,9 +464,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.bcs.broker.framework.demo.app;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "BCS Broker Demo App (Development)";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.bcs.broker.framework.demo.customizedapp;
+				PRODUCT_NAME = MyBroker;
+				PROVISIONING_PROFILE_SPECIFIER = "BCS Broker Demo App (InHouse)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 arm64e";

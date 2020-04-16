@@ -1,15 +1,13 @@
 import UserNotifications
 
 import RxSwift
-
 import ModuleCore
 import BCSSwiftTools
-
 import BrokerData
 import BrokerServiceModule
 import BrokerApp
 
-class BrokerAppDemoDelegate: BrokerAppDelegate, LoggerDelegate, ScannerDelegate, RemoteConfigDelegate {
+class BrokerAppDemoDelegate: BrokerAppDelegate {
     
     override var services: [ApplicationService] {
         Application.remoteConfigDelegate = self
@@ -33,49 +31,40 @@ class BrokerAppDemoDelegate: BrokerAppDelegate, LoggerDelegate, ScannerDelegate,
          */
         
         return [
-            BrokerDataAppService.initSingleton(broDataConfiguration: .brokerTest()),
+            BrokerDataAppService.initSingleton(broDataConfiguration: .brokerProduction()),
+            Customizer(), // в этом сервисе кастомизируем приложение
             AppNotificationCenter.shared,
             PushNotificationAppService.shared,
             DeepLink.shared,
             Shortcut.shared,
             InterfaceOrientations.shared,
-            IQKeyboardAppService(),
-            AppearanceAppService(),
+            IQKeyboardAppService(), 
             ModulesAppService(),
             AppCoordinator.shared]
     }
-    
-    override var launchViewForRestoreSession: UIView {
-        let view: UIView
-        let darkTheme: Bool
-        if #available(iOS 13.0, *) {
-            view = UIView(backgroundColor: .systemBackground)
-            darkTheme = view.traitCollection.userInterfaceStyle == .dark
-        } else {
-            view = UIView(backgroundColor: .white)
-            darkTheme = false
-        }
-        
-        let indicator = UIActivityIndicatorView(style: darkTheme ? .white : .gray)
-        indicator.startAnimating()
-        
-        let logoBCS = UIImageView(image: UIImage(named: "logoBcs"))
-        view.add(subviews: logoBCS, indicator)
-        logoBCS.snp.makeConstraints {
-            $0.centerX.equalToSuperview()
-            $0.centerY.equalToSuperview()
-            $0.width.height.equalTo(100)
-        }
-        indicator.snp.makeConstraints {
-            $0.centerX.equalToSuperview()
-            $0.bottom.equalToSuperview().inset(100 + UIView.bottomSafeAreaHeight)
-        }
-        
-        return view
-    }
-    
-    func presentScanBankCard(vc: UIViewController, publishSubject: RxSwift.PublishSubject<BrokerApp.ScanBankCardData>) {}
-
-    func presentScanPassport(vc: UIViewController, publishSubject: RxSwift.PublishSubject<BrokerApp.ScanPassportData>) {}
 }
  
+ 
+extension BrokerAppDelegate: ScannerDelegate {
+    
+    public func presentScanBankCard(vc: UIViewController, publishSubject: RxSwift.PublishSubject<BrokerApp.ScanBankCardData>) {
+    
+    }
+
+    public func presentScanPassport(vc: UIViewController, publishSubject: RxSwift.PublishSubject<BrokerApp.ScanPassportData>) {
+        
+    }
+}
+
+/// Делегат для оработки события логирования
+extension BrokerAppDelegate: LoggerDelegate {
+    
+    public func didRecieveLog(log: Logger.Log, logger: Logger) {
+        
+    }
+}
+
+/// Делегат удаленного конфигурирования
+extension BrokerAppDelegate: RemoteConfigDelegate {
+    
+}
