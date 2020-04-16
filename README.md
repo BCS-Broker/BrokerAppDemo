@@ -7,4 +7,4 @@
 * Открыть сгенерированный workspace 
 * Запустить схему BrokerAppDemo в Release конфигураци
 
-Документацию по Broker SDK можно найти на [странице проекта] (https://github.com/BCS-Broker/BrokerApp)
+Документацию по Broker SDK можно найти на [странице проекта](https://github.com/BCS-Broker/BrokerApp)
